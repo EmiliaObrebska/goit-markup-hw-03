@@ -25,6 +25,11 @@ top: -3628px;
 border-radius: 0px;
 }
 
+.container {
+width: 1200px;
+margin: 0 auto;
+
+}
 .section {
   padding top: 94px;
   padding bottom: 94px;
@@ -62,10 +67,9 @@ list-style-type: none;
   }
 
 .links-style {
-  color:#2196F3
- text-decoration: none;
-  }
-
+color:#2196F3
+text decoration: none;
+}
 
 .top-line {
   /* top line bg */
@@ -74,6 +78,7 @@ list-style-type: none;
   left: calc(50% - 1600px/2);
   top: 0px;
   background: #ffffff;
+  margin: 0 auto;
 }
 
 .top-line-nav {
@@ -84,12 +89,52 @@ list-style-type: none;
 }
 
 .logo {
+  width: 145px;
+  height: 31px;
+  left: 189px;
+  top: 20px;
+
 font-size: 26px;
 font-weight: 700;
 line-height: 31px;
 letter-spacing: 0.03em;
 text-align: left;
 text-decoration: none;
+}
+
+.menu-nav-mail {
+  /* info@devstudio.com */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #2F303A;
+ }
+
+ .menu-nav-phone {
+  /* +48 111 111 111 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-decoration: none;
+
+color: #757575;
+ }
+
+.menu-nav { 
+  width: 1600px;
+  height: 80px;
+  left: calc(50% - 1600px/2);
+  top: 0px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  padding-bottom: 94px;
 }
 
 .web-studio1 {
@@ -102,6 +147,7 @@ text-decoration: none;
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #2196f3;
+ 
 }
 
 .web-studio2 {
@@ -113,6 +159,8 @@ text-decoration: none;
   letter-spacing: 0.03em;
   text-decoration: none;
   color:#000000;
+  display: flex;
+  justify-content: space-around;
 }
 
 
@@ -155,37 +203,6 @@ color:#212121;
     color:#2196F3 ;
    }
 
- .menu-nav-mail {
-  /* info@devstudio.com */
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  text-decoration: none;
-  /* or 171% */
-  letter-spacing: 0.03em;
-  color: #2F303A;
- }
-
- .menu-nav-phone {
-  /* +48 111 111 111 */
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-text-decoration: none;
-
-color: #757575;
- }
-
-.menu-nav { 
-   width: 254px;
-  height: 16px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
 
 .main {
   /* Header */
@@ -277,6 +294,7 @@ cursor: pointer;
 
 .ul-list-flex {
 display: flex;
+justify-content: center;
 list-style: none;
 }
 
@@ -292,7 +310,7 @@ justify-content:space-around;
 justify-content:center;
 }
 
-.flex-container-portfolio {
+.container-portfolio {
 justify-content:center;
 gap: 25px;
 }
@@ -302,14 +320,13 @@ width: 1170px;
 height: 101px;
 left: 215px;
 top: 774px;
-margin:0 auto;
+font-size: 14px;
+letter-spacing: 0.03em;
+line-height: 1.7;
+margin-top: 0;
+margin-bottom: 10;
 }
 
-.flex-container-advantages-description {
-display: flex;
-justify-content: center;
-gap: 25px;
-}
 
 .tasks {
 width: 1170px;
@@ -322,13 +339,10 @@ margin:0 auto
 .tasks-title {
 display: flex;
 justify-content: center;
+font-size: 36px;
+margin-top: 94px;
 }
 
-.flex-container-tasks {
-display: flex;
-justify-content:center;
-gap: px;
-}
 
 .team {
   width: 1170px;
@@ -342,13 +356,17 @@ gap: px;
   display: flex;
   justify-content: center;
   }
-  
-  .flex-container-team {
-  display: flex;
-  justify-content:center;
-  gap: 30px;
-  }
 
+  .team-box {
+  text-align: center;
+  background-color: var(--white);
+  border-radius: 0 0 4 4;
+  box-shadow: 
+  0px 1px 3px rgba(0, 0, 0, 0.12), 
+  0px 1px 1px rgba(0, 0, 0, 0.14),
+  0px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  
 
 
 .footer {
