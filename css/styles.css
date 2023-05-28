@@ -1,0 +1,379 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  color: var(--dark-color);
+background: #FFFFFF;
+}
+
+.container-main-page {
+  height: 2349px;
+  width: 1600px;
+  left: 3701px;
+  top: -3862px;
+  border-radius: 0px;
+  margin: 0 auto;
+  padding: 15px;
+  background: #FFFFFF;
+  justify-content:center;
+}
+
+.container-portfolio {
+height: 1880px;
+width: 1600px;
+left: 5628px;
+top: -3628px;
+border-radius: 0px;
+}
+
+:root {
+    --dark-color: #2F303A;
+    --main-color: #2196f3;
+    --main-color-2: #757575
+    --light-color-background: #E5E5E5;
+    --light-color-background2: #F5F4FA;
+  }
+
+.title-text-paragraph {
+    /* Feature 1 */
+color:#2F303A ;
+font-size: small; 
+text-transform: uppercase;
+}
+
+.text-paragraph {
+    /* Feature 1 */
+color: grey;
+font-size: small; 
+}
+
+.ul-list-style {
+list-style-type: none;
+}
+
+.list-style {
+  display:flex;
+  align-items:baseline; 
+  justify-content:space-between;
+  }
+
+.links-style {
+  color:#2196F3
+ text-decoration: none;
+  }
+
+
+.top-line {
+  /* top line bg */
+  width: 1600px;
+  height: 80px;
+  left: calc(50% - 1600px/2);
+  top: 0px;
+  background: #ffffff;
+}
+
+.top-line-nav {
+  font-size: small;
+  display:flex;  
+  align-items:baseline; 
+  justify-content:space-between;
+}
+
+.logo {
+font-size: 26px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0.03em;
+text-align: left;
+text-decoration: none;
+}
+
+.web-studio1 {
+  /* WebStudio */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #2196f3;
+}
+
+.web-studio2 {
+  /* WebStudio */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color:#000000;
+}
+
+
+.web-studio-link1 {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 1000;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #2196F3;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+text-decoration: none;
+}
+
+
+.web-studio-link23 {
+width: 51px;
+height: 16px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 1000;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #212121;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+text-decoration: none;
+ }
+
+ .link-header-footer {
+color:#212121;
+ }
+
+ .link-header-footer:hover {
+  color:#2196F3 ;
+ }
+ 
+ .link-header-footer:focus {
+    color:#2196F3 ;
+   }
+
+ .menu-nav-mail {
+  /* info@devstudio.com */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #2F303A;
+ }
+
+ .menu-nav-phone {
+  /* +48 111 111 111 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-decoration: none;
+
+color: #757575;
+ }
+
+.menu-nav { 
+   width: 254px;
+  height: 16px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.main {
+  /* Header */
+background-color: #2F303A;
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+margin: 0 auto;
+}
+
+.main-text {
+/* EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU */
+position: absolute;
+width: 696px;
+height: 120px;
+left: calc(50% - 696px/2);
+top: 280px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.portfolio {
+  height: 1360px;
+  width: 1170px;
+  left: 215px;
+  top: 174px;
+  border-radius: [object Object]px;
+}
+
+.button-main {
+/* Button */
+position: absolute;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+position: relative;
+}
+
+.button-studio {
+background: #2196f3;
+border: #2196f3;
+border-radius: 4px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+color: #ffffff;
+cursor: pointer;
+font-family: "roboto";
+font-weight: 700;
+font-size: 16px;
+line-height: 1.60;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+padding: 10px 41px 10px 41px;
+  }
+
+.buttons-portfolio {
+  /* Button */
+  width: 572px;
+  height: 54px;
+  left: 510px;
+  top: 174px;
+}
+
+.button-self-item:hover {
+background-color: #2196F3;
+color: rgb(236, 238, 240);
+border-radius: 2px;
+cursor: pointer;
+}
+
+.button-self-item {
+font-weight: 500;
+font-size: 16px;
+line-height: 1, 5;
+border: none;
+background-color: #E7E7E7;
+cursor: pointer;
+}
+
+.ul-list-flex {
+display: flex;
+list-style: none;
+}
+
+.flex-nav {
+display: flex;
+}
+
+.flex-container {
+justify-content:space-around;
+}
+
+.flex-container-portfolio-buttons {
+justify-content:center;
+}
+
+.flex-container-portfolio {
+justify-content:center;
+gap: 25px;
+}
+
+.advantages-description {
+width: 1170px;
+height: 101px;
+left: 215px;
+top: 774px;
+margin:0 auto;
+}
+
+.flex-container-advantages-description {
+display: flex;
+justify-content: center;
+gap: 25px;
+}
+
+.tasks {
+width: 1170px;
+height: 386px;
+left: 215px;
+top: 969px;
+margin:0 auto
+}
+
+.tasks-title {
+display: flex;
+justify-content: center;
+}
+
+.flex-container-tasks {
+display: flex;
+justify-content:center;
+gap: px;
+}
+
+.team {
+  width: 1170px;
+  height: 386px;
+  left: 215px;
+  top: 969px;
+  margin:0 auto
+  }
+  
+  .team-title {
+  display: flex;
+  justify-content: center;
+  }
+  
+  .flex-container-team {
+  display: flex;
+  justify-content:center;
+  gap: 30px;
+  }
+
+
+
+.footer {
+  /* Footer bg */
+background: #2F303A;
+width: 1600px;
+height: 252px;
+margin: 0px;
+}
+
+.text-footer {
+  /* m. Warszawa, Aleje Jerozolimskie 21 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.links-footer {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+text-decoration: none;
+/* or 171% */
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
