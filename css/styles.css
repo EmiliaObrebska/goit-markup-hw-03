@@ -25,6 +25,11 @@ top: -3628px;
 border-radius: 0px;
 }
 
+.section {
+  padding top: 94px;
+  padding bottom: 94px;
+}
+
 :root {
     --dark-color: #2F303A;
     --main-color: #2196f3;
