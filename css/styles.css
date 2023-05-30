@@ -30,6 +30,7 @@ width: 1200px;
 margin: 0 auto;
 
 }
+
 .section {
   padding top: 94px;
   padding bottom: 94px;
@@ -66,7 +67,6 @@ margin: 0 auto;
    left: 0px;
    top: 0px;
    background: #FFFFFF;
-
    }
 
 .logo {
@@ -75,12 +75,10 @@ margin: 0 auto;
     height: 31px;
     left: 189px;
     top: 20px;
-  
   font-size: 26px;
   font-weight: 700;
   line-height: 31px;
   letter-spacing: 0.03em;
- 
   text-decoration: none;
   }
 
