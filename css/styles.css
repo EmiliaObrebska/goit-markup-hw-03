@@ -3,6 +3,7 @@ body {
   line-height: 1.5;
   color: var(--dark-color);
   background: #ffffff;
+  
 }
 
 * {
@@ -229,6 +230,11 @@ body {
   margin: 0 auto;
 }
 
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
 .title-text-paragraph {
   /* Feature 1 */
   color: #2f303a;
@@ -240,10 +246,6 @@ body {
   /* Feature 1 */
   color: grey;
   font-size: small;
-}
-
-.flex-container {
-  justify-content: space-around;
 }
 
 .advantages-description {
@@ -265,8 +267,6 @@ body {
 .tasks-title {
   display: flex;
   justify-content: center;
-  font-size: 36px;
-  margin-top: 94px;
 }
 
 .team {
@@ -295,7 +295,12 @@ body {
   background: #2f303a;
   width: 1600px;
   height: 252px;
-  margin: 0px;
+  margin: 0;
+}
+
+.flex-footer-container {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .text-footer {
