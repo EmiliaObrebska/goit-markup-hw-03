@@ -3,7 +3,6 @@ body {
   line-height: 1.5;
   color: var(--dark-color);
   background: #ffffff;
-  
 }
 
 * {
@@ -269,6 +268,12 @@ body {
   justify-content: center;
 }
 
+.team-section {
+  width: 1600px;
+  height: 648px;
+  background: #f5f4fa;
+}
+
 .team {
   width: 1170px;
   margin: 0 auto;
@@ -279,8 +284,14 @@ body {
   justify-content: center;
 }
 
-.team-box {
+.box-team {
+  box-sizing: border-box;
   text-align: center;
+  height: 368px;
+  width: 270px;
+  left: 0px;
+  top: 0px;
+  border-radius: [object Object]px;
   background-color: var(--white);
   border-radius: 0 0 4 4;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -292,12 +303,13 @@ body {
   background: #2f303a;
   width: 1600px;
   height: 252px;
-  margin: 0;
+  top: 2097px;
+  left: 0px;
 }
 
 .flex-footer-container {
   display: flex;
-  justify-content: flex-start;
+  margin: 0 auto;
 }
 
 .text-footer {
@@ -320,4 +332,30 @@ body {
   /* or 171% */
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.button-filters {
+  /* filters */
+  display: flex;
+  justify-content: center;
+  margin-top: 174px;
+}
+
+.box-portfolio {
+  box-sizing: border-box;
+  text-align: left;
+  height: 404px;
+  width: 370px;
+  border-radius: [object Object]px;
+  background-color: var(--white);
+  border-radius: 0 0 4 4;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.flex-portfolio-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 50px;
 }

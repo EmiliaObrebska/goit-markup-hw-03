@@ -52,20 +52,22 @@
 
     
     <main>
-      <div class="portfolio">
-      <li class="buttons-portfolio ul-list-flex">
+      <div class="button-filters">
+      <li>
       <button type="button" class="button-main button-self-item:hover button-self-item">Wszystkie</button>
       <button type="button" class="button-main button-self-item:hover button-self-item">Strony</button>
       <button type="button"class="button-main button-self-item:hover button-self-item">Aplikacje</button>
       <button type="button"class="button-main button-self-item:hover button-self-item">Dizajn</button>
       <button type="button"class="button-main button-self-item:hover button-self-item">Marketing</button>
     </li>
+    </div>
+  </main>
 
 
-      <section>
-      
-    <ul class="ul-list-style list-style ul-list-flex flex-container-portfolio">
-      <li>
+    <section>
+    <ul class="ul-list-style flex-portfolio-container">
+
+    <li class="box-portfolio">
       <img 
       src="./image/portfolio1.jpg"
           width=370px
@@ -75,7 +77,7 @@
 <figcaption>Strona internetowa</figcaption>
 </li>
 
-<li>
+<li class="box-portfolio">
       <img 
       src="./image/portfolio2.jpg"
           width=370px
@@ -85,7 +87,7 @@
 <figcaption>Dizajn</figcaption>
 </li>
 
-<li>
+<li class="box-portfolio">
   <img 
   src="./image/portfolio3.jpg"
       width=370px
@@ -95,9 +97,10 @@
 <figcaption>Aplikacja</figcaption>
 </li>
 </ul>
+</section>
 
-<ul class="ul-list-style list-style ul-list-flex flex-container-portfolio">
-<li>
+<ul class="ul-list-style flex-portfolio-container">
+<li class="box-portfolio">
   <img 
   src="./image/portfolio4.jpg"
       width=370px
@@ -107,7 +110,7 @@
 <figcaption>Marketing</figcaption>
 </li>
 
-<li>
+<li class="box-portfolio">
   <img 
   src="./image/portfolio5.jpg"
       width=370px
@@ -117,7 +120,7 @@
 <figcaption>Aplikacja</figcaption>
 </li>
 
-<li>
+<li class="box-portfolio">
   <img 
   src="./image/portfolio6.jpg"
       width=370px
@@ -128,8 +131,9 @@
 </li>
 </ul>
 
-<ul class="ul-list-style list-style ul-list-flex flex-container-portfolio" >
-<li>
+<ul class="ul-list-style flex-portfolio-container" >
+
+<li class="box-portfolio">
   <img 
   src="./image/portfolio7.jpg"
       width=370px
@@ -139,7 +143,7 @@
 <figcaption>Dizajn</figcaption>
 </li>
 
-<li>
+<li class="box-portfolio">
   <img 
   src="./image/portfolio8.jpg"
       width=370px
@@ -149,7 +153,7 @@
 <figcaption>Marketing</figcaption>
 </li>
 
-<li>
+<li class="box-portfolio">
   <img 
   src="./image/portfolio9.jpg"
       width=370px
@@ -160,28 +164,36 @@
 </li>
 
 </div>
-       
     </ul>
     </section>
-  
-    </main>
+
     
+    <section>
+    <footer class="footer">
     <footer class="footer">
 
-      <div>
-        <a class="logo" href="./index.html"><span class="web-studio1">Web</span><span class="web-studio2">Studio<span/a>
-        </div>
+      <footer class="footer">
 
-        <address class="text-footer">
-            m. Warszawa <br />
-            Aleje Jerozolimskie 21 <br />
-          </address>
+          <div>
+          <a class="logo" href="./index.html"><span class="web-studio1">Web</span><span class="web-studio2">Studio<span/a>
+          </div>
+          
+          <div>
+          <address class="text-footer">
+              m. Warszawa <br />
+              Aleje Jerozolimskie 21 <br />
+            </address>
+          </div>
+    
+          <div>
+      <a class= "links-footer link-header-footer" href="mailto: info@devstudio.com"
+            >info@devstudio.com</a>
+      <a class= "links-footer link-header-footer" href="tel:+48 111 111 111"
+            >+48 111 111 111</a>
+          </div>
+      </footer>
+    </section>
 
-        <a class= "links-footer link-header-footer" href="mailto: info@devstudio.com"
-              >info@devstudio.com</a>
-        <a class= "links-footer link-header-footer" href="tel:+48 111 111 111"
-              >+48 111 111 111</a>
-        
-    </footer>
+
   </body>
 </html>
