@@ -268,11 +268,17 @@ body {
 .tasks-title {
   display: flex;
   justify-content: center;
+  padding-bottom: 45px;
+}
+
+.task-section {
+  padding-bottom: 200px;
 }
 
 .team-section {
   height: 648px;
   background: #f5f4fa;
+  padding-bottom: 300px;
 }
 
 .team {
@@ -283,6 +289,7 @@ body {
 .team-title {
   display: flex;
   justify-content: center;
+  padding-bottom: 50px;
 }
 
 .box-team {
@@ -383,6 +390,26 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 174px;
+}
+
+.button-all {
+  margin-bottom: 50px;
+}
+
+.button-pages {
+  margin-left: 8px;
+}
+
+.button-app {
+  margin-left: 8px;
+}
+
+.button-design {
+  margin-left: 8px;
+}
+
+.button-marketing {
+  margin-left: 8px;
 }
 
 .box-portfolio {
