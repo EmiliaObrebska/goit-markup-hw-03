@@ -112,7 +112,6 @@ body {
 
 .menu-nav-contact {
   /* Kontakt */
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -238,14 +237,14 @@ body {
 
 .title-text-paragraph {
   /* Feature 1 */
-  color: #2f303a;
+  color: #212121;
   font-size: small;
   text-transform: uppercase;
 }
 
 .text-paragraph {
   /* Feature 1 */
-  color: grey;
+  color: #757575;
   font-size: small;
 }
 
@@ -290,6 +289,30 @@ body {
   display: flex;
   justify-content: center;
   padding-bottom: 50px;
+}
+
+.team-name {
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.team-profession {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
 .box-team {
@@ -337,6 +360,7 @@ body {
   /* or 171% */
   letter-spacing: 0.03em;
   color: #ffffff;
+  padding-top: 20px;
 }
 
 .links-footer {
@@ -352,7 +376,6 @@ body {
 
 .button-main-filters {
   /* Button filters */
-
   background: #2196f3;
   border: #2196f3;
   border-radius: 4px;
@@ -429,4 +452,27 @@ body {
   justify-content: center;
   gap: 50px;
   margin-bottom: 50px;
+}
+
+.box-portfolio-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+  color: #212121;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+.box-portfolio-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+  letter-spacing: 0.03em;
+  color: #757575;
+  padding-left: 15px;
 }
