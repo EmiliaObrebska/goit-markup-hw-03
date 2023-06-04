@@ -162,7 +162,7 @@ body {
 
 .main {
   background-color: #2f303a;
-  background-image: url("./image/img1.8.jpg");
+  background-image: url("../image/img1.8.jpg");
   width: 1600px;
   height: 600px;
   left: 0px;
