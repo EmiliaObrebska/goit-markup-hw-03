@@ -136,11 +136,14 @@ body {
 
 .icon-envelope {
   /* envelope */
-  left: 65.75%;
-  right: 33.25%;
-  top: 1.16%;
-  bottom: 98.43%;
-  background-color: #2196f3;
+  margin-right: 10px;
+  border: #2a2a2a;
+  border-radius: 8px;
+  fill: #2a2a2a;
+}
+
+.icon-envelope:hover {
+  fill: #03a9f4;
 }
 
 .menu-nav-phone {
