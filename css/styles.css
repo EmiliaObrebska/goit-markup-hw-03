@@ -136,9 +136,11 @@ body {
 
 .icon-envelope {
   /* envelope */
-  margin-right: 10px;
-  border: #2a2a2a;
-  border-radius: 8px;
+  height: 12px;
+  width: 16px;
+  left: 1052px;
+  top: 34px;
+  border-radius: 0px;
   fill: #2a2a2a;
 }
 
@@ -162,7 +164,12 @@ body {
   height: 16px;
   left: 1243px;
   top: 33px;
+  border-radius: 0px;
   color: #757575;
+}
+
+.icon-smartphone:hover {
+  fill: #03a9f4;
 }
 
 .ul-list-style {
