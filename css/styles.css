@@ -134,6 +134,15 @@ body {
   color: #2196f3;
 }
 
+.icon-envelope {
+  /* envelope */
+  left: 65.75%;
+  right: 33.25%;
+  top: 1.16%;
+  bottom: 98.43%;
+  background-color: #2196f3;
+}
+
 .menu-nav-phone {
   /* +48 111 111 111 */
   font-style: normal;
@@ -141,6 +150,15 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.icon-smartphone {
+  /* smartphone */
+  width: 10px;
+  height: 16px;
+  left: 1243px;
+  top: 33px;
   color: #757575;
 }
 
@@ -327,6 +345,17 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+.icon-sm-panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  margin-left: 32px;
+  margin-right: 32px;
+  padding: 0;
+  margin-bottom: 30px;
 }
 
 .box-team {
