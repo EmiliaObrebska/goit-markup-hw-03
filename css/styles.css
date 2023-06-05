@@ -488,6 +488,10 @@ body {
   fill: #ffffff;
 }
 
+.icon-footer-inn:hover {
+  fill: #2196f3;
+}
+
 .button-main-filters {
   /* Button filters */
   background: #2196f3;
