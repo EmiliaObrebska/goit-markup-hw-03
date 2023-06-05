@@ -353,26 +353,38 @@ body {
 .icon-sm-panel {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  gap: 10px;
-  margin-left: 32px;
-  margin-right: 32px;
-  padding: 0;
-  margin-bottom: 30px;
+  justify-content: space-between;
+}
+
+.icon-sm {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.icon-sm-color {
+  /* icon-sm */
+  fill: #757575;
+  margin: 12px;
+  width: 44px;
+  height: 44px;
+  left: 547px;
+  top: 2139px;
 }
 
 .box-team {
   box-sizing: border-box;
   text-align: center;
-  height: 368px;
   width: 270px;
-  left: 0px;
-  top: 0px;
-  border-radius: [object Object]px;
-  background-color: var(--white);
-  border-radius: 0 0 4 4;
+  height: 428px;
+  left: 215px;
+  top: 1785px;
+
+  background: #ffffff;
+  /* material shadow v1 */
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .clients {
@@ -443,6 +455,38 @@ body {
   /* or 171% */
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.icon-footer-sm-panel {
+  display: flex;
+  justify-content: center;
+}
+
+.join-us {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.icons-footer-sm {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 0;
+}
+
+.icon-footer {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.icon-footer-inn {
+  fill: #ffffff;
 }
 
 .button-main-filters {
